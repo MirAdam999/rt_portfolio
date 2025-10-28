@@ -1,0 +1,36 @@
+:root {
+    --blu-text: #25B3FA;
+    --dark-cube: #17153B;
+    --pink-shadow: 20px 10px 50px 15px rgba(255, 152, 253, 0.19);
+    --pink-shadow-large: 0px 0px 50px 30px rgba(255, 152, 253, 0.19);
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.page {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #433d8b, #3f3885, #3b337f, #372e7a, #332974, #2f266d, #2b2367, #272060, #231d57, #1e1b4d, #1b1844, #17153b);
+}
+
+.runway {
+    margin: 0 auto;
+    max-width: 1280px;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    justify-content: center;
+
+    padding-bottom: 40px;
+    padding-top: 40px;
+}

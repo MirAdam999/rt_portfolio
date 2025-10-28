@@ -1,0 +1,78 @@
+.about-education-wrapper {
+    margin-top: 25px;
+    flex-basis: 80%;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about {
+    flex-basis: 580px;
+    flex-grow: 2;
+}
+
+.education {
+    flex-basis: 380px;
+    flex-grow: 2;
+}
+
+#about-header {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+}
+
+#about-txt {
+    letter-spacing: 1px;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 35px;
+}
+
+.education {
+    background-color: var(--dark-cube);
+    border-radius: 20px;
+    box-shadow: var(--pink-shadow);
+    padding: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.education-inner {
+    align-self: center;
+}
+
+#education-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+}
+
+#bcs {
+    font-size: clamp(1rem, 1.2vw, 1.8rem);
+    margin-bottom: 5px;
+}
+
+#sapir {
+    margin-top: 0;
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    margin-bottom: 0;
+}
+
+#sderot {
+    color: var(--blu-text);
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    margin-top: 0;
+}
+
+#years {
+    font-size: clamp(1rem, 1vw, 1.5rem);
+}
