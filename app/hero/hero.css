@@ -2,6 +2,7 @@
     flex-basis: 80%;
     color: white;
     background-color: var(--dark-cube);
+    border: var(--dark-border) solid 2px;
     border-radius: 20px;
     box-shadow: var(--pink-shadow-large);
 
@@ -27,7 +28,7 @@
 }
 
 #hey {
-    font-size: clamp(2rem, 4.5vw, 5rem);
+    font-size: clamp(2rem, 4vw, 4rem);
     margin-bottom: 15px;
 }
 

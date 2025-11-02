@@ -1,8 +1,17 @@
 :root {
     --blu-text: #25B3FA;
     --dark-cube: #17153B;
+    --dark-border: #2f2d5e;
     --pink-shadow: 20px 10px 50px 15px rgba(255, 152, 253, 0.19);
     --pink-shadow-large: 0px 0px 50px 30px rgba(255, 152, 253, 0.19);
+    --light-blue-txt: rgb(209, 226, 245);
+    --dark-grey: #1b1b1b;
+    --light-grey: #646464;
+
+    --omg-orange: #FF9F25;
+    --omg-purple: #A025FA;
+    --omg-pink: #FF4FD8;
+    --omg-green: #25FA8C;
 }
 
 body {
@@ -17,11 +26,12 @@ body {
     min-height: 100vh;
     width: 100vw;
     background-image: linear-gradient(to bottom, #433d8b, #3f3885, #3b337f, #372e7a, #332974, #2f266d, #2b2367, #272060, #231d57, #1e1b4d, #1b1844, #17153b);
+    cursor: default;
 }
 
 .runway {
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1200px;
 
     min-height: 100vh;
 

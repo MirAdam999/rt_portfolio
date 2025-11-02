@@ -17,7 +17,7 @@ export default function About_and_Education() {
             <div className='education'>
                 <div className='education-inner'>
                     <p className={mid_font.className} id='education-header'>Education</p>
-                    <p className={mid_font.className} id='bcs'>BCs <br />
+                    <p className={mid_font.className} id='bcs'>BCs 🎓<br />
                         Computer Science</p>
                     <p className={fine_font.className} id='sapir'>Sapir Academic College</p>
                     <p className={fine_font.className} id='sderot'>Sderot, Israel</p>
