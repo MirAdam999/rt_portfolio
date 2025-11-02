@@ -2,7 +2,7 @@
     --blu-text: #25B3FA;
     --dark-cube: #17153B;
     --dark-border: #2f2d5e;
-    --pink-shadow: 20px 10px 50px 15px rgba(255, 152, 253, 0.19);
+    --pink-shadow: 0px 0px 50px 10px rgba(255, 152, 253, 0.19);
     --pink-shadow-large: 0px 0px 50px 30px rgba(255, 152, 253, 0.19);
     --light-blue-txt: rgb(209, 226, 245);
     --dark-grey: #1b1b1b;
@@ -43,4 +43,9 @@ body {
 
     padding-bottom: 40px;
     padding-top: 40px;
+}
+
+footer {
+    color: var(--light-blue-txt);
+    margin-top: 25px;
 }

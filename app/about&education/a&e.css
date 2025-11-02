@@ -30,6 +30,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: ease 0.3s;
+}
+
+.education:hover {
+    transform: translateY(-5);
+    box-shadow: var(--pink-shadow-large);
+    border: rgba(255, 152, 253, 0.5) solid 2px;
 }
 
 #about-header {
@@ -47,6 +55,7 @@
     padding-right: 10px;
     line-height: 25px;
     color: var(--light-blue-txt);
+    text-align: center;
 }
 
 .education-inner {

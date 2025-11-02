@@ -101,16 +101,16 @@
 }
 
 #proj-1 .skill {
-    border: var(--blu-text) solid 2px;
+    border: var(--blu-text) solid 1px;
 
 }
 
 #proj-2 .skill {
-    border: var(--omg-pink) solid 2px;
+    border: var(--omg-pink) solid 1px;
 
 }
 
 #proj-3 .skill {
-    border: var(--omg-green) solid 2px;
+    border: var(--omg-green) solid 1px;
 
 }

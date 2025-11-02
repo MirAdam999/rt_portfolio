@@ -6,7 +6,13 @@
 
 .work h1 {
     font-size: clamp(1.5rem, 2vw, 3rem);
-    margin-left: 2rem;
+    text-align: center;
+}
+
+.work h2 {
+    font-size: clamp(1.5rem, 1.3vw, 2.2rem);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .work-inner {
@@ -20,7 +26,7 @@
     background-color: var(--dark-cube);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 20px;
+    padding: 25px;
     border: rgba(255, 152, 253, 0.5) solid 2px;
     transition: ease 0.3s;
     margin-left: 5vw;
@@ -29,4 +35,107 @@
 .job:hover {
     transform: translateY(-10px);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.job::before {
+    content: '';
+    display: block;
+    background-color: rgba(255, 152, 253, 0.9);
+    border: solid 3px var(--dark-cube);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: calc(-5vw - 36px);
+}
+
+.job-top,
+.workplace,
+.date-place {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: clamp(1rem, 0.8vw, 1.2rem);
+}
+
+.feature {
+    color: white;
+    background-color: var(--dark-grey);
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-size: clamp(0.8rem, 0.6vw, 1.2rem);
+    margin-left: 20px;
+    text-align: center;
+}
+
+#sapir-feature {
+    border: var(--omg-orange) solid 1px;
+}
+
+#freelance-feature {
+    border: var(--omg-pink) solid 1px;
+}
+
+#terem-feature {
+    border: var(--blu-text) solid 1px;
+}
+
+#mda-feature {
+    border: var(--omg-green) solid 1px;
+}
+
+.work-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.8px;
+}
+
+#sap {
+    color: var(--omg-orange);
+    font-size: clamp(1rem, 0.8vw, 1.2rem);
+}
+
+#freelance {
+    color: var(--omg-pink);
+    font-size: clamp(1rem, 0.8vw, 1.2rem);
+}
+
+#terem {
+    color: var(--blu-text);
+    font-size: clamp(1rem, 0.8vw, 1.2rem);
+}
+
+#mda {
+    color: var(--omg-green);
+    font-size: clamp(1rem, 0.8vw, 1.2rem);
+}
+
+.date-place {
+    color: var(--light-blue-txt);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.date,
+.place {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.bulletpoints {
+    color: var(--light-blue-txt);
+    letter-spacing: 0.8px;
+    font-size: clamp(1rem, 0.8vw, 1.2rem);
+    margin-top: 20px;
+}
+
+.bulletpoints li::marker {
+    color: var(--blu-text);
+}
+
+.bulletpoints li {
+    margin-top: 10px;
 }
