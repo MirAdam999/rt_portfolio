@@ -21,7 +21,6 @@ export default function Skills() {
                         <div className={`${fine_font.className} skill`} id='language'>HTML</div>
                         <div className={`${fine_font.className} skill`} id='language'>CSS</div>
                         <div className={`${fine_font.className} skill`} id='language'>SQL</div>
-                        <div className={`${fine_font.className} skill`} id='language'>Kotlin</div>
                     </div>
                 </div>
                 <div className='skills-section-r'>

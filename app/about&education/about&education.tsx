@@ -9,7 +9,7 @@ export default function About_and_Education() {
                 <p className={mid_font.className} id='about-header'>About Me</p>
                 <p className={fine_font.className} id='about-txt'>
                     It all began in my teenage years with the discovery of Visual Basic - and from there, the spark never faded.
-                    After several years working in healthcare, I decided to return to my true passion: coding.
+                    After several years working in healthcare, I decided to return to my true passion: programming.
                     I’m a lifelong learner who thrives in agile environments and enjoys exploring both modern technologies and the classics.
                     Feel free to check out some of my work below 👇
                 </p>
@@ -17,7 +17,7 @@ export default function About_and_Education() {
             <div className='education'>
                 <div className='education-inner'>
                     <p className={mid_font.className} id='education-header'>Education</p>
-                    <p className={mid_font.className} id='bcs'>BCs 🎓<br />
+                    <p className={mid_font.className} id='bcs'>BSc. 🎓<br />
                         Computer Science</p>
                     <p className={fine_font.className} id='sapir'>Sapir Academic College</p>
                     <p className={fine_font.className} id='sderot'>Sderot, Israel</p>

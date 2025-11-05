@@ -6,6 +6,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { HiOutlineMapPin } from "react-icons/hi2";
 import { FiPhone } from "react-icons/fi";
 import { CiMail } from "react-icons/ci";
+import Link from 'next/link';
 
 export default function Contact() {
 
@@ -19,11 +20,17 @@ export default function Contact() {
                     <div className={`${fine_font.className} conn`}><HiOutlineMapPin size={35} color='white' />Winnipeg, MB, Canada</div>
                 </div>
                 <div className='conn-r'>
-                    <div className={`${fine_font.className} conn`}><VscGithubAlt size={35} color='white' />GitHub</div>
-                    <div className={`${fine_font.className} conn`}><IoLogoLinkedin size={35} color='white' />LinkedIn</div>
+                    <Link href="https://github.com/artiomAdam" target="_blank" rel="noopener noreferrer" className={`${fine_font.className} conn`}>
+                        <VscGithubAlt size={35} color='white' />
+                        GitHub
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/artium-adam-ba352b31a/" target="_blank" rel="noopener noreferrer" className={`${fine_font.className} conn`}>
+                        <IoLogoLinkedin size={35} color='white' />
+                        LinkedIn
+                    </Link>
                     <div className={`${fine_font.className} conn`}><IoDocumentTextOutline size={35} color='white' />Download Resume</div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
