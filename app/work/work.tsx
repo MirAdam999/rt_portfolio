@@ -15,7 +15,6 @@ export default function Work() {
                     <div className='job-top'>
                         <GoBriefcase size={23} color="#FF9F25" />
                         <h2 className={`${mid_font.className} job-title`}>Teaching Assistant</h2>
-                        <div className={`${fine_font.className} feature`} id='sapir-feature'>Algoritms, LLM</div>
                     </div>
                     <div className='workplace' >
                         <HiOutlineBuildingOffice2 size={23} color="#D1E2F5" />
@@ -37,12 +36,11 @@ export default function Work() {
                 <div className='job'>
                     <div className='job-top'>
                         <GoBriefcase size={23} color="#FF4FD8" />
-                        <h2 className={`${mid_font.className} job-title`}>Software Engineer</h2>
-                        <div className={`${fine_font.className} feature`} id='freelance-feature'>Solo Development</div>
+                        <h2 className={`${mid_font.className} job-title`}>Software Developer</h2>
                     </div>
                     <div className='workplace' >
                         <HiOutlineBuildingOffice2 size={23} color="#D1E2F5" />
-                        <p className={`${mid_font.className} work-name`} id='freelance'>Freelance</p>
+                        <p className={`${mid_font.className} work-name`} id='freelance'>LevelFive</p>
                     </div>
                     <div className='date-place'>
                         <CiCalendar size={23} />
@@ -61,7 +59,6 @@ export default function Work() {
                     <div className='job-top'>
                         <GoBriefcase size={23} color="#25B3FA" />
                         <h2 className={`${mid_font.className} job-title`}>Paramedic</h2>
-                        <div className={`${fine_font.className} feature`} id='terem-feature'>Teamwork</div>
                     </div>
                     <div className='workplace' >
                         <HiOutlineBuildingOffice2 size={23} color="#D1E2F5" />
