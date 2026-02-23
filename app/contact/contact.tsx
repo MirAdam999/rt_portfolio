@@ -15,7 +15,7 @@ export default function Contact() {
             <h1 className={mid_font.className}>Let's Connect</h1>
             <div className='conn-wrap'>
                 <div className='conn-l'>
-                    <div className={`${fine_font.className} conn`}><CiMail size={35} color='white' />artiomgeneralov@gmail.com</div>
+                    <div className={`${fine_font.className} conn`}><CiMail size={35} color='white' />artiumadam@gmail.com</div>
                     <div className={`${fine_font.className} conn`}><FiPhone size={30} color='white' />+1 (431) 556-4370</div>
                     <div className={`${fine_font.className} conn`}><HiOutlineMapPin size={35} color='white' />Winnipeg, MB, Canada</div>
                 </div>
@@ -24,7 +24,7 @@ export default function Contact() {
                         <VscGithubAlt size={35} color='white' />
                         GitHub
                     </Link>
-                    <Link href="https://www.linkedin.com/in/artium-adam-ba352b31a/" target="_blank" rel="noopener noreferrer" className={`${fine_font.className} conn`}>
+                    <Link href="https://www.linkedin.com/in/artium-adam/" target="_blank" rel="noopener noreferrer" className={`${fine_font.className} conn`}>
                         <IoLogoLinkedin size={35} color='white' />
                         LinkedIn
                     </Link>
