@@ -22,13 +22,16 @@ export default function Contact() {
                 <div className='conn-r'>
                     <Link href="https://github.com/artiomAdam" target="_blank" rel="noopener noreferrer" className={`${fine_font.className} conn`}>
                         <VscGithubAlt size={35} color='white' />
-                        GitHub
+                        My GitHub
                     </Link>
                     <Link href="https://www.linkedin.com/in/artium-adam/" target="_blank" rel="noopener noreferrer" className={`${fine_font.className} conn`}>
                         <IoLogoLinkedin size={35} color='white' />
-                        LinkedIn
+                        My LinkedIn
                     </Link>
-                    <div className={`${fine_font.className} conn`}><IoDocumentTextOutline size={35} color='white' />Download Resume</div>
+                    <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className={`${fine_font.className} conn`}>
+                        <IoDocumentTextOutline size={35} color='white' />
+                        My Resume
+                    </a>
                 </div>
             </div>
         </div >
