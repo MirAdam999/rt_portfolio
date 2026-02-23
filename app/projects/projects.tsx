@@ -43,6 +43,31 @@ export default function Projects() {
                 <div className='project' id='proj-2'>
                     <div className='proj-top'>
                         <h2 className={`${mid_font.className} project-header`} id='proj-2-head'>
+                            AI-Enhanced Notes Manager
+                        </h2>
+                        <Link href="https://github.com/artiomAdam/ai-tagged-notes-nexus" target="_blank" rel="noopener noreferrer"><button><VscGithubAlt /></button></Link>
+                    </div>
+                    <p className={`${fine_font.className} project-txt`} id='proj-2-txt'>
+                        A cross-platform personal notes system built with Avalonia, featuring a rich-text editor, hierarchical navigation,
+                        topic metadata, and AI-driven topic suggestions powered by ONNX embeddings.
+                        Designed for fast filtering, structured management, and smooth local-first performance.
+                    </p>
+                    <p className={`${fine_font.className} project-txt`} id='proj-2-txt'>
+                        Implemented a full MVVM architecture, custom-forked rich-text editor, semantic topic prediction pipeline (E5-base-v2),
+                        local SQLite storage, and intelligent synchronization of note-topic relationships with efficient caching layers.
+                    </p>
+                    <div className='proj-skills'>
+                        <div className={`${fine_font.className} skill`}>C#</div>
+                        <div className={`${fine_font.className} skill`}>.NET</div>
+                        <div className={`${fine_font.className} skill`}>Avalonia</div>
+                        <div className={`${fine_font.className} skill`}>SQLite</div>
+                        <div className={`${fine_font.className} skill`}>ONNX Runtime</div>
+                    </div>
+                </div>
+
+                <div className='project' id='proj-3'>
+                    <div className='proj-top'>
+                        <h2 className={`${mid_font.className} project-header`} id='proj-2-head'>
                             Sarcastobot
                         </h2>
                         <Link href="https://github.com/artiomAdam/gpt-Discord-Sarcastobot" target="_blank" rel="noopener noreferrer"><button><VscGithubAlt /></button></Link>
@@ -58,28 +83,6 @@ export default function Projects() {
                     <div className='proj-skills'>
                         <div className={`${fine_font.className} skill`}>Java</div>
                         <div className={`${fine_font.className} skill`}>API Integration</div>
-                    </div>
-                </div>
-
-                <div className='project' id='proj-3'>
-                    <div className='proj-top'>
-                        <h2 className={`${mid_font.className} project-header`} id='proj-3-head'>Project</h2>
-                        <Link href="https://github.com/artiomAdam" target="_blank" rel="noopener noreferrer"><button><VscGithubAlt /></button></Link>
-                    </div>
-                    <p className={`${fine_font.className} project-txt`} id='proj-3-txt'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <div className='proj-skills'>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
-                        <div className={`${fine_font.className} skill`}>Skill</div>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 .about-education-wrapper {
     margin-top: 25px;
-    flex-basis: 80%;
+    flex-basis: 98%;
     color: white;
 
     display: flex;
@@ -18,8 +18,10 @@
 
 .education {
     flex-basis: 200px;
-    flex-grow: 2;
+    flex-grow: 1;
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     background-color: var(--dark-cube);
     border: var(--dark-border) solid 2px;
@@ -51,11 +53,11 @@
 #about-txt {
     letter-spacing: 0.8px;
     font-size: clamp(1rem, 1vw, 1.5rem);
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
     line-height: 25px;
     color: var(--light-blue-txt);
-    text-align: center;
+    text-align: left;
 }
 
 .education-inner {
